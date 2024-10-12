@@ -96,7 +96,7 @@ if ($result->num_rows > 0) {
   while($row = $result->fetch_assoc()) {
  
  
-echo "<div class='cont'><fieldset><div id='dv1'>SNJB <br><img src=''><br><p id='ye'>".$row['Year']."</p></div><div><p>Late Sau.Kantabai Bhavarlalji Jain</p><br><p id='b'>COLLEGE OF ENGINEERING</p><br><p>Neminagar,Chandwad,Dist. Nashik</p><hr><span><p id='nam'>".$row['Name']." </p><br><p>Academic Year : 2021-2022</p><br><p>Course : BE COMP. ENGG.</p><br><p>Date of Birth : ".$row['DOB']."</p><br><p>Blood Group : ".$row['BG']."</p></span></div></fieldset></div>";
+echo "<div class='cont'><fieldset><div id='dv1'>SNJB<br><img src=''><br><p id='ye'>".$row['Year']."</p></div><div><p>Late Sau.Kantabai Bhavarlalji Jain</p><br><p id='b'>COLLEGE OF ENGINEERING</p><br><p>Neminagar,Chandwad,Dist. Nashik</p><hr><span><p id='nam'>".$row['Name']." </p><br><p>Academic Year : 2021-2022</p><br><p>Course : BE COMP. ENGG.</p><br><p>Date of Birth : ".$row['DOB']."</p><br><p>Blood Group : ".$row['BG']."</p></span></div></fieldset></div>";
  }
 }?>
 </body>
